@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut" type="image" href="assets/images/cinemafilm.jpg">
     <link href= "assets/css/style.css" rel ="stylesheet">
+    <link rel="stylesheet" href="assets/css/flipclock.css">
 
-    <script src= "assets/javascript/main.js"></script>
+    
     <title>Trivia Game</title>
 </head>
 <body>
 
     <h1>Mini Movie Trivia!</h1>
+    <br>
+
 
     <form id = "movieQuiz" name = "quiz">
 
-        <p>In What year was the first Back to The Future movie released?</p>
+        <p>In what year was the first Back to The Future movie released?</p>
         <input type="radio" id= "mc" name="question1" value="1984" checked> 1984<br>
         <input type="radio" id= "mc" name="question1" value="1981"> 1981<br>
         <input type="radio" id= "mc" name="question1" value="1985"> 1985<br>
@@ -45,10 +49,19 @@
         <input type="radio" id= "mc" name="question6" value="Warren"> Warren<br>
         <input type="radio" id= "mc" name="question6" value="Tucker"> Tucker<br>
 
+    <br>
+
         <input id= "button" type= "button" value= "Done! Get Results" onclick= "check();">
 
 
     </form>
+
+    <div id = "after_submit">
+        <p id = "number_correct"></p>
+    </div>
+
+    <script src= "assets/javascript/app.js"></script>
+    <script src="assets/javascript/timer.js"></script>
 
     
 </body>

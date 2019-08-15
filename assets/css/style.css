@@ -1,0 +1,24 @@
+body { text-align: center;
+    background-image: url(https://i.ytimg.com/vi/44A-KNz2U-w/maxresdefault.jpg);
+}
+
+h1 { font-style: oblique;
+    color: wheat;
+}
+
+p { font-style: italic; font-weight: bold;
+    color: rgb(250, 190, 25);
+}
+
+body { text-align: center;
+    color: wheat;
+}
+
+#after_submit {
+    visibility: hidden;
+    color: wheat;
+}
+
+/* #button {
+    color: wheat;
+} */
